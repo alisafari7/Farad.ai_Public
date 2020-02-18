@@ -1,0 +1,29 @@
+body, html{
+  height: 100%;
+  font-family: 'Girassol', cursive;
+}
+
+.container{
+  text-align: center;
+  padding: 50px;
+}
+
+.form-group{
+  text-align: left;
+}
+
+.jumbotron{
+  text-align: center;
+}
+
+.col-md-6 {
+  padding: 50px;
+}
+
+.img-fluid {
+  padding: 20px;
+}
+
+#team_photos {
+  line-height: 10px;
+}

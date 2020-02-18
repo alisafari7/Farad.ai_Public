@@ -2,9 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Farad.ai - Contact</title>
+    <title>Farad.ai - Team</title>
     <link rel="stylesheet" href="shared.css">
-    <link rel="stylesheet" href="faradai_contact.css">
+    <link rel="stylesheet" href="faradai_team.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Girassol&display=swap">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </head>
@@ -29,11 +29,11 @@
             <a class="nav-link" href="About.html">About</a>
           </li>
           <!--Menu link 3-->
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="Team.html">Team</a>
           </li>
           <!--Menu link 4-->
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="Contact.html">Contact</a>
           </li>
         </ul>
@@ -42,61 +42,41 @@
 
     <!-- Contact intro text -->
     <div class="container">
-      <h1 class="display-2">Contact Us</h1>
+      <h1 class="display-2">Meet the Team</h1>
       <br>
-      <div class="row align-items-center">
-        <div class="col-md-6 col-12">
-          <p>We're glad to have you with us for the journey! 😊</p>
-          <p>Find us at our office near Paddington Station, London.
-            We work in a shared office space with two other startups. Let us know if you're in the area.</p>
-          <p>We're also in San Francisco! On the sunny west-coast.</p>
+      <div id="team_photos" class="row">
+        <div class="col-md-4 col-12 my-auto">
+            <img class="img-fluid" src="./Assets/Ali.jpg">
+            <p><strong>Ali Safari</strong></p>
+            <p>Co-Founder & CEO</p>
         </div>
-        <div id="address" class="col-md-3 col-12">
-          <p><strong>Ministry of Startups</strong></p>
-          <p>West Two Health</p>
-          <p>Praed St</p>
-          <p>Tyburnia</p>
-          <p>London</p>
-          <p>W2 1NR</p>
+        <div class="col-md-4 col-12 my-auto">
+            <img class="img-fluid" src="./Assets/Eugene.jpg">
+            <p><strong>Eugene Ciurana</strong></p>
+            <p>Co-Founder & CTO</p>
         </div>
-        <div id="address" class="col-md-3 col-12">
-          <p><strong>San Francisco HQ</strong></p>
-          <p>Address Line 1</p>
-          <p>Address Line 2</p>
-          <p>Address</p>
-          <p>San Francisco</p>
-          <p>ZIP Code</p>
+        <div class="col-md-4 col-12 my-auto">
+            <img class="img-fluid" src="./Assets/Juvid.jpg">
+            <p><strong>Juvid Aryaman</strong></p>
+            <p>Data Scientist</p>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid" style="background-color: #F4F4F4">
+    <div class="container-fluid" style="background-color: #363946; color: white;">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 col-12 my-auto">
-            <img id="img_rocket" class="img-fluid" src="./Assets/rocket.png">
+            <h1 class="display-4">Our Culture</h1>
+            <p>We're a team of scientists, engineers and energy experts, already making positive contributions to the energy industry.
+            We're passionate about fighting climate change, and having fun while we fight it. </p>
+            <p>Our mission is supported by a strong working culture at both our London and San Francisco offices.
+            We know that building the right team means we can build the right solution, which is what we're here to do.</p>
           </div>
           <div class="col-md-6 col-12">
-            <form>
-              <div class="form-group">
-                <label for="firstName">First name</label>
-                <input type="text" class="form-control" id="firstName" required>
-              </div>
-              <div class="form-group">
-                <label for="lastName">Last name</label>
-                <input type="text" class="form-control" id="lastName" required>
-              </div>
-              <div class="form-group">
-                <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-              </div>
-              <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="interestCheck">
-                <label class="form-check-label" for="interestCheck">I'm interested!</label>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            <p class="lead">Join the team!</p>
+            <p>If you're an avid technologist, climatologist or entreprenur, you should get in touch.</p>
+            <a button type="button" name="button" class="btn btn-outline-light" href="Contact.html">🤙 Sign me up!</a>
           </div>
         </div>
       </div>

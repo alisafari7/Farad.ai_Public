@@ -8,9 +8,9 @@ body, html{
 }
 
 .hero-image-landing{
-  background-image: url(Logo_black.svg);
+  background-image: url(./Assets/Logo_black.svg);
 
-  height: 90%;
+  height: 85%;
 
   background-position: center;
   background-repeat: no-repeat;
@@ -57,21 +57,7 @@ body, html{
    color:white;
 }
 
-#coffee_img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  width: 100%;
-}
-
-#coffee_portfolio{
-  background-color:#41342F;
-  position: relative;
-  display: block;
-  margin: 0;
-  max-width: 100%;
-}
-
-#raise_cups{
-  margin: 0;
+#mission {
+  padding-left: 150px;
+  padding-right: 150px;
 }
