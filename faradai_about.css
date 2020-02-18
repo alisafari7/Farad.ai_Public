@@ -1,44 +1,40 @@
 body, html{
   height: 100%;
-  font-family: 'Girassol', cursive;
 }
 
 .hero-image-landing {
   background-image: url(./Assets/black_square.svg);
   height: 95%;
-  background-position: -100px -75px;
   background-repeat: no-repeat;
-  background-size: 200% 200%;
   position: ab;
 }
 
-.row{
+.row {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
-}
-
-.col{
-  text-align: center;
-}
-
-.grid-padding img{
-  padding: 4px;
 }
 
 #landing_subtitle {
   padding-top: 350px;
 }
 
-.col-md-6 {
-  padding: 50px;
-}
-
 #about_text {
-  margin-left: 100px;
-  padding-top: 50px;
+  margin-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
 }
 
 .display-1 {
   text-align: center;
+}
+
+.container-fluid {
+  height: 100%;
+}
+
+.fill-height {
+  min-height: 95%;
+  height:auto; /* cross-browser */
+  height: 95%; /* cross-browser */
 }

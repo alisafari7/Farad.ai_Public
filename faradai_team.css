@@ -1,6 +1,5 @@
 body, html{
   height: 100%;
-  font-family: 'Girassol', cursive;
 }
 
 .container{
@@ -16,14 +15,20 @@ body, html{
   text-align: center;
 }
 
-.col-md-6 {
-  padding: 50px;
-}
-
 .img-fluid {
   padding: 20px;
 }
 
+.img {
+  height: 50px;
+  padding: 10px;
+}
+
 #team_photos {
-  line-height: 10px;
+  line-height: 20px;
+}
+
+#join_text {
+  padding-left: 30px;
+  padding-right: 30px;
 }
