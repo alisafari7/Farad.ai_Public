@@ -1,0 +1,77 @@
+body, html{
+  height: 100%;
+  font-family: 'Girassol', cursive;
+}
+
+.container{
+  text-align: center;
+}
+
+.hero-image-landing{
+  background-image: url(Logo_black.svg);
+
+  height: 90%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 75% 75%;
+  position: ab;
+}
+
+.hero-text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 2rem;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.col{
+  text-align: center;
+}
+
+.grid-padding img{
+  padding: 4px;
+}
+
+#landing_subtitle {
+  padding-top: 350px;
+}
+
+#globe_text {
+  padding-top: 200px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+#problem {
+   background-color:#363946;
+   color:white;
+}
+
+#coffee_img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+#coffee_portfolio{
+  background-color:#41342F;
+  position: relative;
+  display: block;
+  margin: 0;
+  max-width: 100%;
+}
+
+#raise_cups{
+  margin: 0;
+}

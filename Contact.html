@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Farad.ai - Contact</title>
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="faradai_contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Girassol&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="Home.html">Farad.ai</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--Navbar content-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <!--Menu link 1-->
+          <li class="nav-item active">
+            <a class="nav-link" href="Home.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <!--Menu link 2-->
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          <!--Menu link 3-->
+          <li class="nav-item">
+            <a class="nav-link" href="Team.html">Team</a>
+          </li>
+          <!--Menu link 4-->
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Contact intro text -->
+    <div class="container">
+      <h1 class="display-2">Contact Us</h1>
+      <br>
+      <div class="row align-items-center">
+        <div class="col-md-6 col-12">
+          <p>We're glad to have you with us for the journey! 😊</p>
+          <p>Find us at our office near Paddington Station, London. We work in a shared office space with two other startups. Let us know if you're in the area.</p>
+        </div>
+        <div id="address" class="col-md-6 col-12">
+          <p><strong>Ministry of Startups</strong></p>
+          <p>West Two Health</p>
+          <p>Praed St</p>
+          <p>Tyburnia</p>
+          <p>London</p>
+          <p>W2 1NR</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" style="background-color: #F4F4F4">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 col-12 my-auto">
+            <img id="img_rocket" class="img-fluid" src="./Assets/rocket.png">
+          </div>
+          <div class="col-md-6 col-12">
+            <form>
+              <div class="form-group">
+                <label for="firstName">First name</label>
+                <input type="text" class="form-control" id="firstName" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last name</label>
+                <input type="text" class="form-control" id="lastName" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="interestCheck">
+                <label class="form-check-label" for="interestCheck">I'm interested!</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Bootstrap JS scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
